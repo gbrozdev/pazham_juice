@@ -45,7 +45,7 @@ class _MainPageState extends State<MainPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Text("Pazham Juice",style: TextStyle(
+                        Text("Studygram",style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
                         ),),
@@ -125,7 +125,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                         ),
                         SizedBox(height: 8,),
-                        Text("Catogary")
+                        Text("BCom")
                       ],
                     ),
                   ),
@@ -149,7 +149,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                         ),
                         SizedBox(height: 8,),
-                        Text("Catogary")
+                        Text("Bca")
                       ],
                     ),
                   ),
@@ -173,7 +173,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                         ),
                         SizedBox(height: 8,),
-                        Text("Catogary")
+                        Text("Bsc CS")
                       ],
                     ),
                   ),
@@ -200,7 +200,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                         ),
                         SizedBox(height: 8,),
-                        Text("Catogary")
+                        Text("BBA")
                       ],
                     ),
                   ),
@@ -224,7 +224,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                         ),
                         SizedBox(height: 8,),
-                        Text("Catogary")
+                        Text("Bsc Physics")
                       ],
                     ),
                   ),
@@ -248,7 +248,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                         ),
                         SizedBox(height: 8,),
-                        Text("Catogary")
+                        Text("Bsc Chemistry")
                       ],
                     ),
                   ),
@@ -274,7 +274,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                         ),
                         SizedBox(height: 8,),
-                        Text("Catogary")
+                        Text("Bsc Maths")
                       ],
                     ),
                   ),
@@ -287,11 +287,18 @@ class _MainPageState extends State<MainPage> {
                           width: 64,
                           decoration: BoxDecoration(
                             color: Colors.blue,
-                            shape: BoxShape.circle
+                            shape: BoxShape.circle,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.05),
+                                blurRadius: 3,
+                                spreadRadius: 4
+                              )
+                            ]
                           ),
                         ),
                         SizedBox(height: 8,),
-                        Text("Catogary")
+                        Text("BA English")
                       ],
                     ),
                   ),
@@ -304,11 +311,18 @@ class _MainPageState extends State<MainPage> {
                           width: 64,
                           decoration: BoxDecoration(
                             color: Colors.yellow,
-                            shape: BoxShape.circle
+                            shape: BoxShape.circle,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.05),
+                                blurRadius: 3,
+                                spreadRadius: 4
+                              )
+                            ]
                           ),
                         ),
                         SizedBox(height: 8,),
-                        Text("Catogary")
+                        Text("BA Statistics")
                       ],
                     ),
                   ),
