@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         // home: MainPage(),
         home: MainPage(),
+        
         routes: {
           'semester': (ctx) {
             return Semester();
@@ -22,6 +23,8 @@ class MyApp extends StatelessWidget {
         });
   }
 }
+ 
+
 
 class Test extends StatelessWidget {
   const Test({Key? key}) : super(key: key);

@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
 
-// class Semester extends StatelessWidget {
-//   const Semester({Key? key}) : super(key: key);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         title: Text('dshtdyh'),
-//       ),
-//     );
-//   }
-// }
-
 class Semester extends StatelessWidget {
   const Semester({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('dshtdyh'),
+      ),
+      body: Semlist(),
+    );
+  }
+}
+
+class Semlist extends StatelessWidget {
+  const Semlist({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
